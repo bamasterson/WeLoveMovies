@@ -1,0 +1,9 @@
+Project: WeLoveMovies You've been hired on as a backend developer for a new startup called WeLoveMovies! As another developer works on the design and frontend experience, you have been tasked with setting up a database and building out specific routes so that users can gain access to data about movies, theaters, and reviews.
+
+This project is designed to test your ability to both build complex servers and access data through a database.
+
+Instructions You are tasked with both setting up the database and building a number of routes that will be used by the frontend application. For this project, you will start by making the necessary changes to the data tier and then proceed to make changes to the application tier following an inside-out development workflow. Each table is detailed below, as is each route.
+
+file are correctly configured, with your app.js file exporting the application created from Express. You make use of the cors package so that requests from the frontend can correctly reach the backend. If a request is made to a route that does not exist, the server returns a 404 error. If a request is made to a route that exists, but the HTTP method is wrong, a 405 error is returned. All of your routes should respond with the appropriate status code and should use a data key in the response. Database tables You will create five tables for this project. View the docs/tables/ folder in this project to get more detailed information on each table.
+
+Routes You will create five routes for this project. View the docs/routes/ folder in this project to get more detailed information on each table.
